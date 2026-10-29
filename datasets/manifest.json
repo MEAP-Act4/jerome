@@ -1,0 +1,284 @@
+{
+  "name": "JEROME STEM Knowledge Base",
+  "version": 1,
+  "generatedAt": "2026-10-22T12:28:55.507Z",
+  "source": {
+    "dataset": "cais/mmlu",
+    "url": "https://huggingface.co/datasets/cais/mmlu",
+    "license": "MIT",
+    "citation": "Hendrycks, D., Burns, C., Basart, S., Zou, A., Mazeika, M., Song, D., & Steinhardt, J. (2021). Measuring Massive Multitask Language Understanding. ICLR 2021."
+  },
+  "additionalSources": [
+    {
+      "dataset": "JEROME STEM Question Bank",
+      "config": "question_bank",
+      "url": "",
+      "license": "Teacher-provided",
+      "citation": "JEROME STEM Adaptive Practice Dataset - Question Bank (teacher-provided, 2026)."
+    }
+  ],
+  "method": "Teacher-provided question bank first, then MMLU test split; topic assignment uses the bank's labels or keyword heuristics; difficulty is taken from the source or derived from its level.",
+  "totals": {
+    "subjects": 11,
+    "questions": 1430,
+    "topics": 22
+  },
+  "subjects": [
+    {
+      "id": "pre-calculus",
+      "name": "Pre-Calculus",
+      "category": "Specialized",
+      "folder": "datasets/pre-calculus",
+      "questionCount": 132,
+      "topicCount": 2,
+      "difficultyCounts": {
+        "Easy": 4,
+        "Medium": 124,
+        "Hard": 4
+      },
+      "sources": [
+        {
+          "dataset": "JEROME STEM Question Bank",
+          "config": "question_bank",
+          "license": "Teacher-provided",
+          "questionCount": 12
+        },
+        {
+          "dataset": "cais/mmlu",
+          "config": "high_school_mathematics",
+          "license": "MIT",
+          "questionCount": 120
+        }
+      ]
+    },
+    {
+      "id": "basic-calculus",
+      "name": "Basic Calculus",
+      "category": "Specialized",
+      "folder": "datasets/basic-calculus",
+      "questionCount": 112,
+      "topicCount": 2,
+      "difficultyCounts": {
+        "Easy": 4,
+        "Medium": 4,
+        "Hard": 104
+      },
+      "sources": [
+        {
+          "dataset": "JEROME STEM Question Bank",
+          "config": "question_bank",
+          "license": "Teacher-provided",
+          "questionCount": 12
+        },
+        {
+          "dataset": "cais/mmlu",
+          "config": "college_mathematics",
+          "license": "MIT",
+          "questionCount": 100
+        }
+      ]
+    },
+    {
+      "id": "general-biology-1",
+      "name": "General Biology 1",
+      "category": "Specialized",
+      "folder": "datasets/general-biology-1",
+      "questionCount": 132,
+      "topicCount": 2,
+      "difficultyCounts": {
+        "Easy": 4,
+        "Medium": 4,
+        "Hard": 124
+      },
+      "sources": [
+        {
+          "dataset": "JEROME STEM Question Bank",
+          "config": "question_bank",
+          "license": "Teacher-provided",
+          "questionCount": 12
+        },
+        {
+          "dataset": "cais/mmlu",
+          "config": "college_biology",
+          "license": "MIT",
+          "questionCount": 120
+        }
+      ]
+    },
+    {
+      "id": "general-biology-2",
+      "name": "General Biology 2",
+      "category": "Specialized",
+      "folder": "datasets/general-biology-2",
+      "questionCount": 150,
+      "topicCount": 2,
+      "difficultyCounts": {
+        "Medium": 150
+      },
+      "sources": [
+        {
+          "dataset": "cais/mmlu",
+          "config": "high_school_biology",
+          "license": "MIT",
+          "questionCount": 150
+        }
+      ]
+    },
+    {
+      "id": "general-chemistry-1",
+      "name": "General Chemistry 1",
+      "category": "Specialized",
+      "folder": "datasets/general-chemistry-1",
+      "questionCount": 110,
+      "topicCount": 2,
+      "difficultyCounts": {
+        "Easy": 4,
+        "Medium": 4,
+        "Hard": 102
+      },
+      "sources": [
+        {
+          "dataset": "JEROME STEM Question Bank",
+          "config": "question_bank",
+          "license": "Teacher-provided",
+          "questionCount": 12
+        },
+        {
+          "dataset": "cais/mmlu",
+          "config": "college_chemistry",
+          "license": "MIT",
+          "questionCount": 98
+        }
+      ]
+    },
+    {
+      "id": "general-chemistry-2",
+      "name": "General Chemistry 2",
+      "category": "Specialized",
+      "folder": "datasets/general-chemistry-2",
+      "questionCount": 150,
+      "topicCount": 2,
+      "difficultyCounts": {
+        "Medium": 150
+      },
+      "sources": [
+        {
+          "dataset": "cais/mmlu",
+          "config": "high_school_chemistry",
+          "license": "MIT",
+          "questionCount": 150
+        }
+      ]
+    },
+    {
+      "id": "general-physics-1",
+      "name": "General Physics 1",
+      "category": "Specialized",
+      "folder": "datasets/general-physics-1",
+      "questionCount": 95,
+      "topicCount": 2,
+      "difficultyCounts": {
+        "Easy": 4,
+        "Medium": 4,
+        "Hard": 87
+      },
+      "sources": [
+        {
+          "dataset": "JEROME STEM Question Bank",
+          "config": "question_bank",
+          "license": "Teacher-provided",
+          "questionCount": 12
+        },
+        {
+          "dataset": "cais/mmlu",
+          "config": "college_physics",
+          "license": "MIT",
+          "questionCount": 83
+        }
+      ]
+    },
+    {
+      "id": "general-physics-2",
+      "name": "General Physics 2",
+      "category": "Specialized",
+      "folder": "datasets/general-physics-2",
+      "questionCount": 149,
+      "topicCount": 2,
+      "difficultyCounts": {
+        "Medium": 149
+      },
+      "sources": [
+        {
+          "dataset": "cais/mmlu",
+          "config": "high_school_physics",
+          "license": "MIT",
+          "questionCount": 149
+        }
+      ]
+    },
+    {
+      "id": "earth-and-life-science",
+      "name": "Earth and Life Science",
+      "category": "STEM Core",
+      "folder": "datasets/earth-and-life-science",
+      "questionCount": 160,
+      "topicCount": 2,
+      "difficultyCounts": {
+        "Hard": 100,
+        "Medium": 60
+      },
+      "sources": [
+        {
+          "dataset": "cais/mmlu",
+          "config": "astronomy",
+          "license": "MIT",
+          "questionCount": 100
+        },
+        {
+          "dataset": "cais/mmlu",
+          "config": "conceptual_physics",
+          "license": "MIT",
+          "questionCount": 60
+        }
+      ]
+    },
+    {
+      "id": "general-mathematics",
+      "name": "General Mathematics",
+      "category": "STEM Core",
+      "folder": "datasets/general-mathematics",
+      "questionCount": 120,
+      "topicCount": 2,
+      "difficultyCounts": {
+        "Easy": 120
+      },
+      "sources": [
+        {
+          "dataset": "cais/mmlu",
+          "config": "elementary_mathematics",
+          "license": "MIT",
+          "questionCount": 120
+        }
+      ]
+    },
+    {
+      "id": "statistics-and-probability",
+      "name": "Statistics and Probability",
+      "category": "STEM Core",
+      "folder": "datasets/statistics-and-probability",
+      "questionCount": 120,
+      "topicCount": 2,
+      "difficultyCounts": {
+        "Medium": 120
+      },
+      "sources": [
+        {
+          "dataset": "cais/mmlu",
+          "config": "high_school_statistics",
+          "license": "MIT",
+          "questionCount": 120
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,673 @@
+{
+  "dataset": "cais/mmlu",
+  "config": "conceptual_physics",
+  "split": "test",
+  "license": "MIT",
+  "sourceUrl": "https://huggingface.co/datasets/cais/mmlu",
+  "citation": "Hendrycks et al. (2021). Measuring Massive Multitask Language Understanding. ICLR 2021.",
+  "fetchedAt": "2026-10-22T12:18:08.940Z",
+  "requested": 60,
+  "count": 60,
+  "rows": [
+    {
+      "question": "A 10-N force at an angle 45° above the horizontal has a horizontal component of about",
+      "subject": "conceptual_physics",
+      "choices": [
+        "7 N",
+        "5 N",
+        "10 N",
+        "12 N"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "A completely submerged object always displaces its own",
+      "subject": "conceptual_physics",
+      "choices": [
+        "weight of fluid.",
+        "volume of fluid.",
+        "density of fluid.",
+        "All of these."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "When a diver points a flashlight upward toward the surface of the water at an angle 20° from the normal, the beam of light",
+      "subject": "conceptual_physics",
+      "choices": [
+        "totally internally reflects",
+        "passes into the air above",
+        "is absorbed",
+        "None of these"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "According to four-dimensional geometry, the angles of a triangle add to 180°",
+      "subject": "conceptual_physics",
+      "choices": [
+        "always.",
+        "sometimes.",
+        "never.",
+        "on planet Earth only."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "A voltage will be induced in a wire loop when the magnetic field within that loop",
+      "subject": "conceptual_physics",
+      "choices": [
+        "changes",
+        "aligns with the electric field",
+        "is at right angles to the electric field",
+        "converts to magnetic energy"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Among these colors, the one that has the most energy per photon is",
+      "subject": "conceptual_physics",
+      "choices": [
+        "red",
+        "yellow-green",
+        "blue",
+        "violet"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "According to general relativity,",
+      "subject": "conceptual_physics",
+      "choices": [
+        "mass distorts spacetime.",
+        "gravity affects clocks.",
+        "light can’t escape from a black hole.",
+        "All of these."
+      ],
+      "answer": 3
+    },
+    {
+      "question": "A step-up transformer in an electric circuit can step up",
+      "subject": "conceptual_physics",
+      "choices": [
+        "voltage",
+        "energy",
+        "Both of these",
+        "Neither of these"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Spectral lines of the elements are",
+      "subject": "conceptual_physics",
+      "choices": [
+        "chaotic",
+        "ordered",
+        "positioned by amplitude",
+        "in phase"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "A wave transfers",
+      "subject": "conceptual_physics",
+      "choices": [
+        "amplitude",
+        "wavelength",
+        "frequency",
+        "energy"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Immediately after two separated charged particles are released from rest, both increase in acceleration. The sign of charge of the particles is therefore",
+      "subject": "conceptual_physics",
+      "choices": [
+        "the same",
+        "opposite",
+        "Either of these",
+        "Need more information"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "The surface of planet Earth loses energy to outer space due mostly to",
+      "subject": "conceptual_physics",
+      "choices": [
+        "conduction",
+        "convection",
+        "radiation",
+        "radioactivity"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "In a series circuit, if the current in one lamp is 2 A, the current in the lamp next to it is",
+      "subject": "conceptual_physics",
+      "choices": [
+        "half, 1 A",
+        "2 A",
+        "Depends on which lamp is closer to the battery",
+        "Not enough information to say"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "As a blinking light source approaching you gains speed, you see the frequency of flashes",
+      "subject": "conceptual_physics",
+      "choices": [
+        "increase.",
+        "decrease.",
+        "remain unchanged.",
+        "None of these."
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In the absence of air resistance a ball of mass m is tossed upward to reach a height of 20 m. At the 10-m position half way up the net force on the ball is",
+      "subject": "conceptual_physics",
+      "choices": [
+        "2mg",
+        "mg",
+        "mg/2",
+        "mg/4"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Pumice is a volcanic rock that floats in water. The density of pumice compared with that of water is",
+      "subject": "conceptual_physics",
+      "choices": [
+        "less.",
+        "equal.",
+        "greater.",
+        "none because it sinks."
+      ],
+      "answer": 0
+    },
+    {
+      "question": "When you look at the red petals of a rose the color light you're seeing is",
+      "subject": "conceptual_physics",
+      "choices": [
+        "red.",
+        "green.",
+        "white minus red.",
+        "a mixture of green and yellow."
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Compared with the sound you hear from the siren of a stationary fire engine the sound you hear when it approaches you has an increased",
+      "subject": "conceptual_physics",
+      "choices": [
+        "speed",
+        "frequency",
+        "wavelength",
+        "All of these"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "When you squeeze an air-filled party balloon, you increase its",
+      "subject": "conceptual_physics",
+      "choices": [
+        "volume",
+        "mass",
+        "weight",
+        "density"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Polarization is a property of",
+      "subject": "conceptual_physics",
+      "choices": [
+        "transverse waves",
+        "longitudinal waves",
+        "all waves",
+        "None of these"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In a vacuum, an object has no",
+      "subject": "conceptual_physics",
+      "choices": [
+        "buoyant force",
+        "mass",
+        "weight",
+        "All of these"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Temperature is generally proportional to a substance’s",
+      "subject": "conceptual_physics",
+      "choices": [
+        "thermal energy.",
+        "vibrational kinetic energy.",
+        "average translational kinetic energy.",
+        "rotational kinetic energy."
+      ],
+      "answer": 2
+    },
+    {
+      "question": "In a hydraulic press operation, the output piston cannot",
+      "subject": "conceptual_physics",
+      "choices": [
+        "move farther than the input piston",
+        "exceed the force input",
+        "exceed the input piston’s speed",
+        "produce increased energy"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "When a spinning system contracts in the absence of an external torque its rotational speed increases and its angular momentum",
+      "subject": "conceptual_physics",
+      "choices": [
+        "decreases",
+        "increases",
+        "remains unchanged",
+        "may increase or decrease"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "According to Hooke’s law, if you hang by a tree branch and note how much it bends, then hanging with twice the weight produces",
+      "subject": "conceptual_physics",
+      "choices": [
+        "half the bend.",
+        "the same bend if the branch doesn’t break.",
+        "twice the bend.",
+        "4 times the bend."
+      ],
+      "answer": 2
+    },
+    {
+      "question": "When an increase in speed doubles the kinetic energy of a moving body its momentum",
+      "subject": "conceptual_physics",
+      "choices": [
+        "increases but less than doubles",
+        "doubles",
+        "more than doubles",
+        "depends on factors not stated"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Suppose the number of neutrons in a reactor that is starting up doubles each minute reaching one billion neutrons in 10 minutes. When did the number of neutrons reach half a billion?",
+      "subject": "conceptual_physics",
+      "choices": [
+        "1 minute.",
+        "2 minutes.",
+        "5 minutes.",
+        "9 minutes."
+      ],
+      "answer": 3
+    },
+    {
+      "question": "If an object is already moving and the sum of all the vector forces on a mass is zero, then the object will",
+      "subject": "conceptual_physics",
+      "choices": [
+        "move at a constant speed in a straight line",
+        "accelerate at a constant rate in a straight line",
+        "come to rest",
+        "increase its amount of inertia"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Relativity equations for time, length, and momentum hold true for",
+      "subject": "conceptual_physics",
+      "choices": [
+        "everyday low speeds.",
+        "relativistic speeds.",
+        "Both of these.",
+        "Neither of these."
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Put a saucer of water on your table. A process that then occurs is",
+      "subject": "conceptual_physics",
+      "choices": [
+        "evaporation",
+        "condensation",
+        "Both",
+        "Neither"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "A barometer that uses water instead of mercury will be",
+      "subject": "conceptual_physics",
+      "choices": [
+        "shorter",
+        "taller",
+        "equal in height",
+        "inoperable"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "A heavy rock and a light rock in free fall (zero air resistance) have the same acceleration. The heavy rock doesn't have a greater acceleration because the",
+      "subject": "conceptual_physics",
+      "choices": [
+        "force due to gravity is the same on each.",
+        "air resistance is always zero in free fall.",
+        "inertia of both rocks is the same.",
+        "ratio of force to mass is the same."
+      ],
+      "answer": 3
+    },
+    {
+      "question": "When an increase in speed doubles the momentum of a moving body its kinetic energy",
+      "subject": "conceptual_physics",
+      "choices": [
+        "increases but less than doubles",
+        "doubles",
+        "more than doubles",
+        "depends on factors not stated"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "The equation E = mc^2 indicates that energy",
+      "subject": "conceptual_physics",
+      "choices": [
+        "equals mass moving at the speed of light squared.",
+        "equals moving mass.",
+        "is fundamentally different than mass.",
+        "and mass are closely related."
+      ],
+      "answer": 3
+    },
+    {
+      "question": "General relativity predicts that",
+      "subject": "conceptual_physics",
+      "choices": [
+        "light leaving the Sun is slowed by gravity.",
+        "light passing the Sun is deflected.",
+        "a clock on the Sun’s surface runs faster than on Earth.",
+        "All of these."
+      ],
+      "answer": 3
+    },
+    {
+      "question": "When an element ejects an alpha particle, the atomic number of the resulting element",
+      "subject": "conceptual_physics",
+      "choices": [
+        "reduces by 2",
+        "reduces by 4",
+        "increases by 2",
+        "increases by 4"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "As more lamps are connected in parallel in a circuit, the current in the power source",
+      "subject": "conceptual_physics",
+      "choices": [
+        "increases",
+        "decreases",
+        "remains the same",
+        "Not enough information to say"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "An airplane with its nose pointing north with an airspeed of 40 km/h in a 30-km/h crosswind (at right angles) has a groundspeed of",
+      "subject": "conceptual_physics",
+      "choices": [
+        "30 km/h",
+        "40 km/h",
+        "50 km/h",
+        "60 km/h"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "The energy of an emitted photon is related to its",
+      "subject": "conceptual_physics",
+      "choices": [
+        "amplitude",
+        "polarization",
+        "momentum",
+        "frequency"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Thermal conduction involves mainly",
+      "subject": "conceptual_physics",
+      "choices": [
+        "electrons",
+        "protons",
+        "neutrons",
+        "ions"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Compared with the current in an LED lamp the current in the connecting wire is",
+      "subject": "conceptual_physics",
+      "choices": [
+        "less.",
+        "more.",
+        "the same.",
+        "Need more information."
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Bow waves are produced by waves of water",
+      "subject": "conceptual_physics",
+      "choices": [
+        "overlapping one another",
+        "constructively interfering",
+        "moving slower than the source producing them",
+        "All of these"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "The speed of sound is slightly greater on a",
+      "subject": "conceptual_physics",
+      "choices": [
+        "cold day",
+        "hot day",
+        "day with steady temperature",
+        "None of these"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Consider two mercury barometers, one having a cross-sectional area of 1 cm2 and the other 2 cm2. The height of mercury in the narrower tube is",
+      "subject": "conceptual_physics",
+      "choices": [
+        "half",
+        "twice",
+        "the same",
+        "None of these"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "The second law of thermodynamics tells us that heat doesn’t flow from",
+      "subject": "conceptual_physics",
+      "choices": [
+        "hot to cold ever",
+        "cold to hot ever",
+        "hot to cold without external energy",
+        "cold to hot without external energy"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "In a mixture of hydrogen oxygen and nitrogen gases at a given temperature the molecules having the greatest average speed are those of",
+      "subject": "conceptual_physics",
+      "choices": [
+        "hydrogen.",
+        "oxygen.",
+        "nitrogen.",
+        "But all have the same speed on average."
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Compared with the power input, the power output of an ideal transformer is",
+      "subject": "conceptual_physics",
+      "choices": [
+        "greater",
+        "less",
+        "the same",
+        "Any of these"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "The amount of air drag on an 0.8-N flying squirrel dropping vertically at terminal velocity is",
+      "subject": "conceptual_physics",
+      "choices": [
+        "less than 0.8 N",
+        "0.8 N",
+        "greater than 0.8 N",
+        "dependent on the orientation of its body"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "The vibrations in a longitudinal wave move in a direction",
+      "subject": "conceptual_physics",
+      "choices": [
+        "along and parallel to the wave",
+        "perpendicular to the wave",
+        "Both of these",
+        "Neither of these"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "The potential energy of a compressed spring and the potential energy of a charged object both depend on",
+      "subject": "conceptual_physics",
+      "choices": [
+        "the work done on them",
+        "motion",
+        "Both of these",
+        "Neither of these"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "A step-up transformer in an electrical circuit can step up",
+      "subject": "conceptual_physics",
+      "choices": [
+        "voltage",
+        "energy",
+        "Both of these",
+        "Neither of these"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "The neutrons in an atom are normally found",
+      "subject": "conceptual_physics",
+      "choices": [
+        "inside the nucleus",
+        "outside the nucleus",
+        "Either of these",
+        "Neither of these"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "The greenish-blue color of ocean water is due mostly to light that hasn’t been",
+      "subject": "conceptual_physics",
+      "choices": [
+        "absorbed",
+        "reflected",
+        "scattered",
+        "refracted"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Noise-canceling devices make use of sound",
+      "subject": "conceptual_physics",
+      "choices": [
+        "destruction",
+        "interference",
+        "resonance",
+        "amplification"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Black is the combination of",
+      "subject": "conceptual_physics",
+      "choices": [
+        "all the colors together",
+        "two or more appropriate colors",
+        "light when a prism is held upside down",
+        "None of these"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "In a circuit of two lamps in parallel, if the current in one lamp is 2 A, the current in the other lamp is",
+      "subject": "conceptual_physics",
+      "choices": [
+        "about 1 A",
+        "2 A",
+        "Depends on which lamp is closer to the battery",
+        "Not enough information to say"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Which of these changes when light refracts in passing from one medium to another?",
+      "subject": "conceptual_physics",
+      "choices": [
+        "Speed only",
+        "Wavelength only",
+        "Both speed and wavelength",
+        "Neither of these"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "If the frequency of one source of sound is 500 Hz and a second sound source is 504 Hz, then when the two waves interfere with each other, the beat frequency will be",
+      "subject": "conceptual_physics",
+      "choices": [
+        "2 Hz",
+        "4 Hz",
+        "8 Hz",
+        "16 Hz"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "The loudness of a sound is most closely related to its",
+      "subject": "conceptual_physics",
+      "choices": [
+        "frequency",
+        "period",
+        "wavelength",
+        "amplitude"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "The electric field inside the dome of a Van de Graaff generator is zero when the dome is",
+      "subject": "conceptual_physics",
+      "choices": [
+        "charged",
+        "uncharged",
+        "Either of these",
+        "Neither of these"
+      ],
+      "answer": 2
+    }
+  ]
+}

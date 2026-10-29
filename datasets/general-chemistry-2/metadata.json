@@ -1,0 +1,40 @@
+{
+  "id": "general-chemistry-2",
+  "name": "General Chemistry 2",
+  "category": "Specialized",
+  "description": "Chemical kinetics, equilibrium, acids and bases, and thermodynamics.",
+  "generatedAt": "2026-10-22T12:28:55.507Z",
+  "questionCount": 150,
+  "topicCount": 2,
+  "method": "Normalized from the MMLU test split; topic assigned with keyword matching; difficulty derived from source level.",
+  "topics": [
+    {
+      "id": "chem2-kinetics",
+      "name": "Chemical Kinetics",
+      "questionCount": 5
+    },
+    {
+      "id": "chem2-equilibrium",
+      "name": "Chemical Equilibrium",
+      "questionCount": 145
+    }
+  ],
+  "difficultyCounts": {
+    "Medium": 150
+  },
+  "sources": [
+    {
+      "dataset": "cais/mmlu",
+      "config": "high_school_chemistry",
+      "license": "MIT",
+      "url": "https://huggingface.co/datasets/cais/mmlu",
+      "citation": "Hendrycks, D., Burns, C., Basart, S., Zou, A., Mazeika, M., Song, D., & Steinhardt, J. (2021). Measuring Massive Multitask Language Understanding. ICLR 2021.",
+      "questionCount": 150
+    }
+  ],
+  "files": {
+    "questions": "questions.csv",
+    "topics": "topics.csv",
+    "metadata": "metadata.json"
+  }
+}

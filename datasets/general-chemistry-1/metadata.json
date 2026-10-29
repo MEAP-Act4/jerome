@@ -1,0 +1,50 @@
+{
+  "id": "general-chemistry-1",
+  "name": "General Chemistry 1",
+  "category": "Specialized",
+  "description": "Matter, atomic structure, bonding, and stoichiometric calculations.",
+  "generatedAt": "2026-10-22T12:28:55.507Z",
+  "questionCount": 110,
+  "topicCount": 2,
+  "method": "Normalized from the MMLU test split; topic assigned with keyword matching; difficulty derived from source level.",
+  "topics": [
+    {
+      "id": "chem1-atomic-structure",
+      "name": "Atomic Structure",
+      "questionCount": 94
+    },
+    {
+      "id": "chem1-mole-concept",
+      "name": "Mole Concept and Stoichiometry",
+      "questionCount": 16
+    }
+  ],
+  "difficultyCounts": {
+    "Easy": 4,
+    "Medium": 4,
+    "Hard": 102
+  },
+  "sources": [
+    {
+      "dataset": "JEROME STEM Question Bank",
+      "config": "question_bank",
+      "url": "",
+      "license": "Teacher-provided",
+      "citation": "JEROME STEM Adaptive Practice Dataset - Question Bank (teacher-provided, 2026).",
+      "questionCount": 12
+    },
+    {
+      "dataset": "cais/mmlu",
+      "config": "college_chemistry",
+      "license": "MIT",
+      "url": "https://huggingface.co/datasets/cais/mmlu",
+      "citation": "Hendrycks, D., Burns, C., Basart, S., Zou, A., Mazeika, M., Song, D., & Steinhardt, J. (2021). Measuring Massive Multitask Language Understanding. ICLR 2021.",
+      "questionCount": 98
+    }
+  ],
+  "files": {
+    "questions": "questions.csv",
+    "topics": "topics.csv",
+    "metadata": "metadata.json"
+  }
+}

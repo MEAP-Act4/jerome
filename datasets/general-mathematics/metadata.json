@@ -1,0 +1,40 @@
+{
+  "id": "general-mathematics",
+  "name": "General Mathematics",
+  "category": "STEM Core",
+  "description": "Functions, rational expressions, logic, and real-world modeling.",
+  "generatedAt": "2026-10-22T12:28:55.507Z",
+  "questionCount": 120,
+  "topicCount": 2,
+  "method": "Normalized from the MMLU test split; topic assigned with keyword matching; difficulty derived from source level.",
+  "topics": [
+    {
+      "id": "genmath-functions",
+      "name": "Functions",
+      "questionCount": 115
+    },
+    {
+      "id": "genmath-logic",
+      "name": "Logic",
+      "questionCount": 5
+    }
+  ],
+  "difficultyCounts": {
+    "Easy": 120
+  },
+  "sources": [
+    {
+      "dataset": "cais/mmlu",
+      "config": "elementary_mathematics",
+      "license": "MIT",
+      "url": "https://huggingface.co/datasets/cais/mmlu",
+      "citation": "Hendrycks, D., Burns, C., Basart, S., Zou, A., Mazeika, M., Song, D., & Steinhardt, J. (2021). Measuring Massive Multitask Language Understanding. ICLR 2021.",
+      "questionCount": 120
+    }
+  ],
+  "files": {
+    "questions": "questions.csv",
+    "topics": "topics.csv",
+    "metadata": "metadata.json"
+  }
+}

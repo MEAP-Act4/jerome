@@ -1,0 +1,40 @@
+{
+  "id": "statistics-and-probability",
+  "name": "Statistics and Probability",
+  "category": "STEM Core",
+  "description": "Descriptive statistics, probability, distributions, and inference.",
+  "generatedAt": "2026-10-22T12:28:55.507Z",
+  "questionCount": 120,
+  "topicCount": 2,
+  "method": "Normalized from the MMLU test split; topic assigned with keyword matching; difficulty derived from source level.",
+  "topics": [
+    {
+      "id": "stats-descriptive",
+      "name": "Descriptive Statistics",
+      "questionCount": 99
+    },
+    {
+      "id": "stats-probability",
+      "name": "Probability",
+      "questionCount": 21
+    }
+  ],
+  "difficultyCounts": {
+    "Medium": 120
+  },
+  "sources": [
+    {
+      "dataset": "cais/mmlu",
+      "config": "high_school_statistics",
+      "license": "MIT",
+      "url": "https://huggingface.co/datasets/cais/mmlu",
+      "citation": "Hendrycks, D., Burns, C., Basart, S., Zou, A., Mazeika, M., Song, D., & Steinhardt, J. (2021). Measuring Massive Multitask Language Understanding. ICLR 2021.",
+      "questionCount": 120
+    }
+  ],
+  "files": {
+    "questions": "questions.csv",
+    "topics": "topics.csv",
+    "metadata": "metadata.json"
+  }
+}

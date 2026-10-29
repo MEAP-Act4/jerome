@@ -1,0 +1,197 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String    @id @default(cuid())
+  email         String    @unique
+  password      String
+  firstName     String
+  lastName      String
+  grade         String    @default("Grade 10")
+  strand        String    @default("STEM")
+  school        String?
+  avatar        String    @default("JM")
+  isActive      Boolean   @default(true)
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  progress      UserProgress[]
+  modules       UserModule[]
+  responses     QuestionResponse[]
+  chatMessages  ChatMessage[]
+  streaks       Streak[]
+  dailyActivity DailyActivity[]
+}
+
+model OtpToken {
+  id        String   @id @default(cuid())
+  email     String
+  token     String
+  expiresAt DateTime
+  used      Boolean  @default(false)
+  createdAt DateTime @default(now())
+}
+
+model Subject {
+  id          String  @id @default(cuid())
+  name        String  @unique
+  category    String
+  description String
+  icon        String  @default("📚")
+  color       String  @default("green")
+  order       Int     @default(0)
+
+  topics      Topic[]
+  modules     Module[]
+  chatMessages ChatMessage[]
+}
+
+model Topic {
+  id          String  @id @default(cuid())
+  subjectId   String
+  name        String
+  description String?
+  order       Int     @default(0)
+  prerequisites String @default("")
+
+  subject     Subject  @relation(fields: [subjectId], references: [id])
+  questions   Question[]
+  progress    UserProgress[]
+  modules     Module[]
+}
+
+model Question {
+  id            String   @id @default(cuid())
+  topicId       String
+  subjectId     String
+  difficulty    Int      @default(1)
+  difficultyLabel String @default("Easy")
+  questionText  String
+  optionA       String
+  optionB       String
+  optionC       String
+  optionD       String
+  correctAnswer String
+  explanation   String
+  estTimeSec    Int      @default(30)
+
+  topic         Topic    @relation(fields: [topicId], references: [id])
+  responses     QuestionResponse[]
+}
+
+model Module {
+  id          String  @id @default(cuid())
+  subjectId   String
+  topicId     String
+  title       String
+  description String?
+  order       Int     @default(0)
+  duration    String  @default("10 min")
+  lessonCount Int     @default(3)
+  passingThreshold Int @default(2)
+
+  subject     Subject  @relation(fields: [subjectId], references: [id])
+  topic       Topic    @relation(fields: [topicId], references: [id])
+  lessons     Lesson[]
+  userModules UserModule[]
+}
+
+model Lesson {
+  id          String  @id @default(cuid())
+  moduleId    String
+  title       String
+  content     String
+  objectives  String  @default("")
+  order       Int     @default(0)
+  duration    String  @default("5 min")
+  source      String  @default("DepEd Learning Portal")
+  sourceUrl   String  @default("")
+  sourceReviewed Boolean @default(true)
+
+  module      Module   @relation(fields: [moduleId], references: [id])
+}
+
+model UserProgress {
+  id          String   @id @default(cuid())
+  userId      String
+  subjectId   String
+  topicId     String
+  mastery     Float    @default(0)
+  status      String   @default("not_started")
+  updatedAt   DateTime @updatedAt
+
+  user        User     @relation(fields: [userId], references: [id])
+  topic       Topic    @relation(fields: [topicId], references: [id])
+
+  @@unique([userId, topicId])
+}
+
+model UserModule {
+  id          String    @id @default(cuid())
+  userId      String
+  moduleId    String
+  status      String    @default("locked")
+  score       Int       @default(0)
+  completedAt DateTime?
+  createdAt   DateTime  @default(now())
+
+  user        User      @relation(fields: [userId], references: [id])
+  module      Module    @relation(fields: [moduleId], references: [id])
+
+  @@unique([userId, moduleId])
+}
+
+model QuestionResponse {
+  id            String   @id @default(cuid())
+  userId        String
+  questionId    String
+  selectedAnswer String
+  isCorrect     Boolean
+  timeSpentSec  Int      @default(0)
+  createdAt     DateTime @default(now())
+
+  user          User     @relation(fields: [userId], references: [id])
+  question      Question @relation(fields: [questionId], references: [id])
+}
+
+model ChatMessage {
+  id        String   @id @default(cuid())
+  userId    String
+  subjectId String?
+  role      String
+  content   String
+  createdAt DateTime @default(now())
+
+  user      User     @relation(fields: [userId], references: [id])
+  subject   Subject? @relation(fields: [subjectId], references: [id])
+}
+
+model Streak {
+  id            String   @id @default(cuid())
+  userId        String
+  currentStreak Int      @default(0)
+  longestStreak Int      @default(0)
+  lastActiveDate String  @default("")
+  createdAt     DateTime @default(now())
+
+  user          User     @relation(fields: [userId], references: [id])
+}
+
+model DailyActivity {
+  id              String   @id @default(cuid())
+  userId          String
+  date            String
+  questionsAnswered Int    @default(0)
+  timeSpentSec    Int      @default(0)
+  createdAt       DateTime @default(now())
+
+  user            User     @relation(fields: [userId], references: [id])
+
+  @@unique([userId, date])
+}

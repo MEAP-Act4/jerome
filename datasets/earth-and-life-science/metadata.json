@@ -1,0 +1,49 @@
+{
+  "id": "earth-and-life-science",
+  "name": "Earth and Life Science",
+  "category": "STEM Core",
+  "description": "Earth's systems, geology, climate, astronomy, and life processes.",
+  "generatedAt": "2026-10-22T12:28:55.507Z",
+  "questionCount": 160,
+  "topicCount": 2,
+  "method": "Normalized from the MMLU test split; topic assigned with keyword matching; difficulty derived from source level.",
+  "topics": [
+    {
+      "id": "els-earth-systems",
+      "name": "Earth's Systems",
+      "questionCount": 150
+    },
+    {
+      "id": "els-life-processes",
+      "name": "Life Processes",
+      "questionCount": 10
+    }
+  ],
+  "difficultyCounts": {
+    "Hard": 100,
+    "Medium": 60
+  },
+  "sources": [
+    {
+      "dataset": "cais/mmlu",
+      "config": "astronomy",
+      "license": "MIT",
+      "url": "https://huggingface.co/datasets/cais/mmlu",
+      "citation": "Hendrycks, D., Burns, C., Basart, S., Zou, A., Mazeika, M., Song, D., & Steinhardt, J. (2021). Measuring Massive Multitask Language Understanding. ICLR 2021.",
+      "questionCount": 100
+    },
+    {
+      "dataset": "cais/mmlu",
+      "config": "conceptual_physics",
+      "license": "MIT",
+      "url": "https://huggingface.co/datasets/cais/mmlu",
+      "citation": "Hendrycks, D., Burns, C., Basart, S., Zou, A., Mazeika, M., Song, D., & Steinhardt, J. (2021). Measuring Massive Multitask Language Understanding. ICLR 2021.",
+      "questionCount": 60
+    }
+  ],
+  "files": {
+    "questions": "questions.csv",
+    "topics": "topics.csv",
+    "metadata": "metadata.json"
+  }
+}

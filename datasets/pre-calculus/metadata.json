@@ -1,0 +1,50 @@
+{
+  "id": "pre-calculus",
+  "name": "Pre-Calculus",
+  "category": "Specialized",
+  "description": "Trigonometric identities, functions, graphs, and analytic geometry foundations.",
+  "generatedAt": "2026-10-22T12:28:55.507Z",
+  "questionCount": 132,
+  "topicCount": 2,
+  "method": "Normalized from the MMLU test split; topic assigned with keyword matching; difficulty derived from source level.",
+  "topics": [
+    {
+      "id": "precalc-trig-identities",
+      "name": "Trigonometric Identities",
+      "questionCount": 11
+    },
+    {
+      "id": "precalc-functions-graphs",
+      "name": "Functions and Graphs",
+      "questionCount": 121
+    }
+  ],
+  "difficultyCounts": {
+    "Easy": 4,
+    "Medium": 124,
+    "Hard": 4
+  },
+  "sources": [
+    {
+      "dataset": "JEROME STEM Question Bank",
+      "config": "question_bank",
+      "url": "",
+      "license": "Teacher-provided",
+      "citation": "JEROME STEM Adaptive Practice Dataset - Question Bank (teacher-provided, 2026).",
+      "questionCount": 12
+    },
+    {
+      "dataset": "cais/mmlu",
+      "config": "high_school_mathematics",
+      "license": "MIT",
+      "url": "https://huggingface.co/datasets/cais/mmlu",
+      "citation": "Hendrycks, D., Burns, C., Basart, S., Zou, A., Mazeika, M., Song, D., & Steinhardt, J. (2021). Measuring Massive Multitask Language Understanding. ICLR 2021.",
+      "questionCount": 120
+    }
+  ],
+  "files": {
+    "questions": "questions.csv",
+    "topics": "topics.csv",
+    "metadata": "metadata.json"
+  }
+}

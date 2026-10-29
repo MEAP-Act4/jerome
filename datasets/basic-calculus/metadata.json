@@ -1,0 +1,50 @@
+{
+  "id": "basic-calculus",
+  "name": "Basic Calculus",
+  "category": "Specialized",
+  "description": "Limits, continuity, derivatives, and an introduction to integration.",
+  "generatedAt": "2026-10-22T12:28:55.507Z",
+  "questionCount": 112,
+  "topicCount": 2,
+  "method": "Normalized from the MMLU test split; topic assigned with keyword matching; difficulty derived from source level.",
+  "topics": [
+    {
+      "id": "basiccalc-limits",
+      "name": "Limits",
+      "questionCount": 104
+    },
+    {
+      "id": "basiccalc-derivatives",
+      "name": "Derivatives",
+      "questionCount": 8
+    }
+  ],
+  "difficultyCounts": {
+    "Easy": 4,
+    "Medium": 4,
+    "Hard": 104
+  },
+  "sources": [
+    {
+      "dataset": "JEROME STEM Question Bank",
+      "config": "question_bank",
+      "url": "",
+      "license": "Teacher-provided",
+      "citation": "JEROME STEM Adaptive Practice Dataset - Question Bank (teacher-provided, 2026).",
+      "questionCount": 12
+    },
+    {
+      "dataset": "cais/mmlu",
+      "config": "college_mathematics",
+      "license": "MIT",
+      "url": "https://huggingface.co/datasets/cais/mmlu",
+      "citation": "Hendrycks, D., Burns, C., Basart, S., Zou, A., Mazeika, M., Song, D., & Steinhardt, J. (2021). Measuring Massive Multitask Language Understanding. ICLR 2021.",
+      "questionCount": 100
+    }
+  ],
+  "files": {
+    "questions": "questions.csv",
+    "topics": "topics.csv",
+    "metadata": "metadata.json"
+  }
+}

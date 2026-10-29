@@ -1,0 +1,50 @@
+{
+  "id": "general-physics-1",
+  "name": "General Physics 1",
+  "category": "Specialized",
+  "description": "Mechanics, kinematics, Newton's laws, work, energy, and momentum.",
+  "generatedAt": "2026-10-22T12:28:55.507Z",
+  "questionCount": 95,
+  "topicCount": 2,
+  "method": "Normalized from the MMLU test split; topic assigned with keyword matching; difficulty derived from source level.",
+  "topics": [
+    {
+      "id": "phys1-kinematics",
+      "name": "Kinematics",
+      "questionCount": 27
+    },
+    {
+      "id": "phys1-newtons-laws",
+      "name": "Newton's Laws of Motion",
+      "questionCount": 68
+    }
+  ],
+  "difficultyCounts": {
+    "Easy": 4,
+    "Medium": 4,
+    "Hard": 87
+  },
+  "sources": [
+    {
+      "dataset": "JEROME STEM Question Bank",
+      "config": "question_bank",
+      "url": "",
+      "license": "Teacher-provided",
+      "citation": "JEROME STEM Adaptive Practice Dataset - Question Bank (teacher-provided, 2026).",
+      "questionCount": 12
+    },
+    {
+      "dataset": "cais/mmlu",
+      "config": "college_physics",
+      "license": "MIT",
+      "url": "https://huggingface.co/datasets/cais/mmlu",
+      "citation": "Hendrycks, D., Burns, C., Basart, S., Zou, A., Mazeika, M., Song, D., & Steinhardt, J. (2021). Measuring Massive Multitask Language Understanding. ICLR 2021.",
+      "questionCount": 83
+    }
+  ],
+  "files": {
+    "questions": "questions.csv",
+    "topics": "topics.csv",
+    "metadata": "metadata.json"
+  }
+}

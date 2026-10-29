@@ -1,0 +1,61 @@
+question_id,subject,topic,difficulty_level,difficulty_label,question_text,option_a,option_b,option_c,option_d,correct_answer,explanation,est_time_sec
+Q001,Pre-Calculus,Trigonometric Identities,1,Easy,Which identity is always true for any angle θ?,sin²θ + cos²θ = 1,sin²θ − cos²θ = 1,sin²θ + cos²θ = 2,sin²θ + cos²θ = 0,A,"This is the Pythagorean identity, derived from the unit circle (x² + y² = 1).",30
+Q002,Pre-Calculus,Trigonometric Identities,1,Easy,tan θ is equal to which ratio?,1 / sin θ,cos θ / sin θ,1 / cos θ,sin θ / cos θ,D,"By definition, tan θ = sin θ / cos θ.",30
+Q003,Pre-Calculus,Trigonometric Identities,2,Medium,Simplify: 1 − sin²θ,tan²θ,sin²θ,cos²θ,1 + cos²θ,C,Rearranging sin²θ + cos²θ = 1 gives 1 − sin²θ = cos²θ.,60
+Q004,Pre-Calculus,Trigonometric Identities,2,Medium,sec θ is the reciprocal of which function?,cot θ,cos θ,sin θ,tan θ,B,sec θ = 1 / cos θ.,60
+Q005,Pre-Calculus,Trigonometric Identities,3,Hard,Simplify: sec²θ − tan²θ,cos²θ,0,sin²θ,1,D,"Dividing sin²θ + cos²θ = 1 by cos²θ gives tan²θ + 1 = sec²θ, so sec²θ − tan²θ = 1.",100
+Q006,Pre-Calculus,Trigonometric Identities,3,Hard,"If sin θ = 3/5 and θ is in Quadrant I, what is tan θ?",4/5,3/5,3/4,4/3,C,"cos θ = √(1 − 9/25) = 4/5, so tan θ = (3/5)/(4/5) = 3/4.",100
+Q007,Pre-Calculus,Functions and Graphs,1,Easy,"If f(x) = 2x + 3, what is f(4)?",8,9,11,14,C,f(4) = 2(4) + 3 = 11.,30
+Q008,Pre-Calculus,Functions and Graphs,1,Easy,What is the domain of f(x) = √x?,all real numbers,x ≥ 0,x > 0 only,x ≤ 0,B,The square root is real only for non-negative inputs.,30
+Q009,Pre-Calculus,Functions and Graphs,2,Medium,"Given f(x) = x² and g(x) = x + 1, find (f∘g)(2).",9,5,7,25,A,"g(2) = 3, then f(3) = 9.",60
+Q010,Pre-Calculus,Functions and Graphs,2,Medium,What is the inverse of f(x) = 2x − 6?,x/2 − 6,2x + 6,(x + 6)/2,(x − 6)/2,C,"Swap x and y: x = 2y − 6, then solve for y: y = (x + 6)/2.",60
+Q011,Pre-Calculus,Functions and Graphs,3,Hard,What is the domain of f(x) = 1/(x² − 9)?,x > 3,All real numbers except 3 and −3,All real numbers except 9,All real numbers except 3,B,"The denominator is zero when x² = 9, i.e., x = ±3.",100
+Q012,Pre-Calculus,Functions and Graphs,3,Hard,What is the vertical asymptote of f(x) = (x + 1)/(x − 4)?,x = 4,x = −1,y = 4,x = 1,A,The denominator is zero (and the numerator is not) at x = 4.,100
+Q013,Basic Calculus,Limits,1,Easy,Evaluate: lim(x→3) (2x + 1),Does not exist,3,6,7,D,Direct substitution gives 2(3) + 1 = 7.,30
+Q014,Basic Calculus,Limits,1,Easy,Evaluate: lim(x→2) x²,0,2,8,4,D,Direct substitution gives 2² = 4.,30
+Q015,Basic Calculus,Limits,2,Medium,Evaluate: lim(x→2) (x² − 4)/(x − 2),2,0,4,Does not exist,C,"Factor: (x−2)(x+2)/(x−2) = x + 2, which approaches 4.",60
+Q016,Basic Calculus,Limits,2,Medium,Evaluate: lim(x→∞) 1/x,1,−1,∞,0,D,"As x grows without bound, 1/x approaches 0.",60
+Q017,Basic Calculus,Limits,3,Hard,Evaluate: lim(x→∞) (3x² + 1)/(x² − 5),0,1,∞,3,D,Divide by x²; the ratio of leading coefficients is 3/1 = 3.,100
+Q018,Basic Calculus,Limits,3,Hard,Evaluate: lim(x→0) (√(x + 4) − 2)/x,0,1/2,1/4,Does not exist,C,"Multiply by the conjugate: x / [x(√(x+4)+2)] = 1/(√(x+4)+2), which approaches 1/4.",100
+Q019,Basic Calculus,Derivatives,1,Easy,What is d/dx of x³?,x⁴/4,x²,3x,3x²,D,Power rule: d/dx xⁿ = n·xⁿ⁻¹.,30
+Q020,Basic Calculus,Derivatives,1,Easy,What is the derivative of the constant 5?,0,5,x,1,A,The derivative of any constant is zero.,30
+Q021,Basic Calculus,Derivatives,2,Medium,Differentiate: 4x² − 3x,8x − 3,4x − 3,8x + 3,2x² − 3,A,Apply the power rule to each term: 8x − 3.,60
+Q022,Basic Calculus,Derivatives,2,Medium,What is d/dx of sin x?,tan x,−cos x,−sin x,cos x,D,This is a standard derivative.,60
+Q023,Basic Calculus,Derivatives,3,Hard,Differentiate: (x² + 1)(x − 2),3x² + 1,3x² − 4x + 1,x³ − 2x² + x − 2,2x(x − 2),B,"Expand to x³ − 2x² + x − 2, then differentiate: 3x² − 4x + 1.",100
+Q024,Basic Calculus,Derivatives,3,Hard,Differentiate: (x² + 1)³,6x(x² + 1)³,3(x² + 1)²,6x(x² + 1)²,3x(x² + 1)²,C,Chain rule: 3(x²+1)² · 2x = 6x(x²+1)².,100
+Q025,General Biology 1,Cell Structure,1,Easy,Which organelle is known as the 'powerhouse of the cell'?,Ribosome,Golgi apparatus,Mitochondria,Nucleus,C,Mitochondria produce most of the cell's ATP.,30
+Q026,General Biology 1,Cell Structure,1,Easy,Which organelle contains the DNA of a eukaryotic cell?,Lysosome,Vacuole,Centriole,Nucleus,D,The nucleus houses the cell's genetic material.,30
+Q027,General Biology 1,Cell Structure,2,Medium,Where does protein synthesis take place?,Vacuoles,Ribosomes,Centrioles,Lysosomes,B,Ribosomes translate mRNA into proteins.,60
+Q028,General Biology 1,Cell Structure,2,Medium,Which structure is found in plant cells but NOT in animal cells?,Cell membrane,Cell wall,Mitochondrion,Ribosome,B,Plant cells have a rigid cell wall made of cellulose.,60
+Q029,General Biology 1,Cell Structure,3,Hard,"Which organelle modifies, sorts and packages proteins for secretion?",Smooth ER,Peroxisome,Lysosome,Golgi apparatus,D,The Golgi apparatus processes and ships proteins and lipids.,100
+Q030,General Biology 1,Cell Structure,3,Hard,Why does the rough endoplasmic reticulum appear 'rough'?,It contains chlorophyll,Ribosomes are attached to its surface,It is covered with cilia,It stores calcium,B,Ribosomes bound to the membrane give it a studded look.,100
+Q031,General Biology 1,Cellular Respiration,1,Easy,What is the main energy molecule produced in cellular respiration?,ATP,DNA,Chlorophyll,Glucose,A,ATP is the cell's usable energy currency.,30
+Q032,General Biology 1,Cellular Respiration,1,Easy,Which are the raw materials of aerobic respiration?,Glucose and oxygen,Glucose and carbon dioxide,Carbon dioxide and water,Light and water,A,Glucose is oxidized using oxygen.,30
+Q033,General Biology 1,Cellular Respiration,2,Medium,Where does glycolysis occur?,Nucleus,Cytoplasm,Inner mitochondrial membrane,Mitochondrial matrix,B,Glycolysis takes place in the cytosol and does not need oxygen.,60
+Q034,General Biology 1,Cellular Respiration,2,Medium,What is the final electron acceptor in the electron transport chain?,Oxygen,NADH,Carbon dioxide,Glucose,A,Oxygen accepts electrons and combines with H⁺ to form water.,60
+Q035,General Biology 1,Cellular Respiration,3,Hard,What is the net ATP gain from glycolysis per glucose molecule?,32 ATP,0 ATP,4 ATP,2 ATP,D,"Glycolysis uses 2 ATP and produces 4, for a net gain of 2.",100
+Q036,General Biology 1,Cellular Respiration,3,Hard,Where does the Krebs cycle take place?,Nucleus,Inner mitochondrial membrane,Mitochondrial matrix,Cytoplasm,C,Krebs cycle enzymes are found in the mitochondrial matrix.,100
+Q037,General Chemistry 1,Atomic Structure,1,Easy,What is the electric charge of a proton?,Positive,Negative,Variable,Neutral,A,Protons carry a +1 charge.,30
+Q038,General Chemistry 1,Atomic Structure,1,Easy,The atomic number of an element is equal to its number of…,Neutrons,Protons,Electrons and neutrons,Nucleons,B,Atomic number (Z) is defined as the number of protons.,30
+Q039,General Chemistry 1,Atomic Structure,2,Medium,How many neutrons are in a carbon-14 atom? (Z = 6),20,6,8,14,C,Neutrons = mass number − atomic number = 14 − 6 = 8.,60
+Q040,General Chemistry 1,Atomic Structure,2,Medium,How many electrons does a neutral sodium atom (Z = 11) have?,11,10,23,12,A,"In a neutral atom, electrons equal protons.",60
+Q041,General Chemistry 1,Atomic Structure,3,Hard,How many valence electrons does chlorine (Z = 17) have?,7,8,17,5,A,Configuration 2-8-7 gives 7 valence electrons.,100
+Q042,General Chemistry 1,Atomic Structure,3,Hard,Isotopes of the same element differ in their number of…,Electrons only,Atomic number,Protons,Neutrons,D,Isotopes have the same Z but different neutron counts.,100
+Q043,General Chemistry 1,Mole Concept and Stoichiometry,1,Easy,Which value is closest to Avogadro's number?,6.022 × 10²³,3.14 × 10⁸,9.8 × 10⁰,1.6 × 10⁻¹⁹,A,One mole contains about 6.022 × 10²³ particles.,30
+Q044,General Chemistry 1,Mole Concept and Stoichiometry,1,Easy,What is the approximate molar mass of water (H₂O)?,34 g/mol,16 g/mol,10 g/mol,18 g/mol,D,2(1) + 16 = 18 g/mol.,30
+Q045,General Chemistry 1,Mole Concept and Stoichiometry,2,Medium,How many moles are in 36 g of water? (M = 18 g/mol),0.5 mol,18 mol,2 mol,4 mol,C,n = mass / molar mass = 36 / 18 = 2 mol.,60
+Q046,General Chemistry 1,Mole Concept and Stoichiometry,2,Medium,"What is the molar mass of CO₂? (C = 12, O = 16)",28 g/mol,32 g/mol,44 g/mol,56 g/mol,C,12 + 2(16) = 44 g/mol.,60
+Q047,General Chemistry 1,Mole Concept and Stoichiometry,3,Hard,What is the mass of 2 mol of NaCl? (M = 58.5 g/mol),58.5 g,29.25 g,117 g,234 g,C,mass = n × M = 2 × 58.5 = 117 g.,100
+Q048,General Chemistry 1,Mole Concept and Stoichiometry,3,Hard,"For 2H₂ + O₂ → 2H₂O, how many moles of H₂O form from 3 mol H₂ (O₂ in excess)?",3 mol,6 mol,1.5 mol,2 mol,A,"The H₂ : H₂O mole ratio is 1 : 1, so 3 mol H₂ gives 3 mol H₂O.",100
+Q049,General Physics 1,Kinematics,1,Easy,What is the SI unit of velocity?,m/s²,m/s,N,J,B,Velocity is displacement per unit time: metres per second.,30
+Q050,General Physics 1,Kinematics,1,Easy,Acceleration is the rate of change of…,Force,Mass,Velocity,Position,C,a = Δv / Δt.,30
+Q051,General Physics 1,Kinematics,2,Medium,A car travels 100 m in 20 s. What is its average speed?,20 m/s,2 m/s,5 m/s,120 m/s,C,Average speed = 100 m / 20 s = 5 m/s.,60
+Q052,General Physics 1,Kinematics,2,Medium,An object accelerates from rest at 2 m/s² for 5 s. What is its final velocity?,7 m/s,10 m/s,25 m/s,2.5 m/s,B,v = v₀ + at = 0 + (2)(5) = 10 m/s.,60
+Q053,General Physics 1,Kinematics,3,Hard,An object starts from rest and accelerates at 2 m/s² for 5 s. How far does it travel?,50 m,10 m,12.5 m,25 m,D,d = ½at² = ½(2)(5²) = 25 m.,100
+Q054,General Physics 1,Kinematics,3,Hard,A ball is thrown straight up at 20 m/s (g = 10 m/s²). How long does it take to reach maximum height?,2 s,20 s,1 s,4 s,A,"At the top v = 0, so t = v₀/g = 20/10 = 2 s.",100
+Q055,General Physics 1,Newton's Laws of Motion,1,Easy,Newton's First Law is also known as the law of…,Action and reaction,Gravitation,Inertia,Acceleration,C,An object keeps its state of motion unless a net force acts on it.,30
+Q056,General Physics 1,Newton's Laws of Motion,1,Easy,What is the SI unit of force?,Watt,Pascal,Joule,Newton,D,1 N = 1 kg·m/s².,30
+Q057,General Physics 1,Newton's Laws of Motion,2,Medium,What force is needed to accelerate a 5 kg mass at 3 m/s²?,8 N,1.7 N,35 N,15 N,D,F = ma = 5 × 3 = 15 N.,60
+Q058,General Physics 1,Newton's Laws of Motion,2,Medium,A net force of 50 N acts on a 10 kg object. What is its acceleration?,0.2 m/s²,5 m/s²,500 m/s²,40 m/s²,B,a = F/m = 50/10 = 5 m/s².,60
+Q059,General Physics 1,Newton's Laws of Motion,3,Hard,A book rests on a table. What is the reaction force to the book's weight (Earth pulling the book)?,The book pulling the Earth upward,Friction between the book and table,The table pushing the book upward,The table's weight,A,Third-law pairs act on different objects: Earth pulls book ⇄ book pulls Earth.,100
+Q060,General Physics 1,Newton's Laws of Motion,3,Hard,Forces of 10 N (right) and 4 N (left) act on a 2 kg object. What is its acceleration?,3 m/s² to the right,7 m/s² to the right,5 m/s² to the right,3 m/s² to the left,A,Net force = 6 N right; a = 6/2 = 3 m/s².,100

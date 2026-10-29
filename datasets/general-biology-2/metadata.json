@@ -1,0 +1,40 @@
+{
+  "id": "general-biology-2",
+  "name": "General Biology 2",
+  "category": "Specialized",
+  "description": "Heredity, genetics, evolution, and the diversity of living systems.",
+  "generatedAt": "2026-10-22T12:28:55.507Z",
+  "questionCount": 150,
+  "topicCount": 2,
+  "method": "Normalized from the MMLU test split; topic assigned with keyword matching; difficulty derived from source level.",
+  "topics": [
+    {
+      "id": "bio2-heredity",
+      "name": "Heredity and Genetics",
+      "questionCount": 115
+    },
+    {
+      "id": "bio2-evolution",
+      "name": "Evolution",
+      "questionCount": 35
+    }
+  ],
+  "difficultyCounts": {
+    "Medium": 150
+  },
+  "sources": [
+    {
+      "dataset": "cais/mmlu",
+      "config": "high_school_biology",
+      "license": "MIT",
+      "url": "https://huggingface.co/datasets/cais/mmlu",
+      "citation": "Hendrycks, D., Burns, C., Basart, S., Zou, A., Mazeika, M., Song, D., & Steinhardt, J. (2021). Measuring Massive Multitask Language Understanding. ICLR 2021.",
+      "questionCount": 150
+    }
+  ],
+  "files": {
+    "questions": "questions.csv",
+    "topics": "topics.csv",
+    "metadata": "metadata.json"
+  }
+}
